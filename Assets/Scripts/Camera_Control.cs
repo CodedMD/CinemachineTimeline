@@ -17,26 +17,17 @@ public class Camera_Control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             _vCams[0].SetActive(false);
-            _vCams[1].SetActive(false);
+
         }
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.Mouse1))
         {
+
             _vCams[0].SetActive(true);
-            _vCams[1].SetActive(true);
         }
 
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            _vCams[2].SetActive(false);
-            _vCams[3].SetActive(false);
-        }
-        if (Input.GetKeyUp(KeyCode.C))
-        {
-            _vCams[2].SetActive(true);
-            _vCams[3].SetActive(true);
-        }
+       
     }
 }
