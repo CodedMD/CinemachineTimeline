@@ -11,7 +11,9 @@ public class Camera_Control : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        _vCams[0].SetActive(true);
+        _vCams[1].SetActive(false);
+        _vCams[2].SetActive(false);
     }
 
     // Update is called once per frame
@@ -20,14 +22,24 @@ public class Camera_Control : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             _vCams[0].SetActive(false);
+            _vCams[1].SetActive(true);
 
         }
         if (Input.GetKeyUp(KeyCode.Mouse1))
         {
-
+            _vCams[1].SetActive(false);
             _vCams[0].SetActive(true);
         }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            _vCams[0].SetActive(false);
+            _vCams[2].SetActive(true);
+        }
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            _vCams[0].SetActive(true);
+            _vCams[2].SetActive(false);
+        }
 
-       
     }
 }
