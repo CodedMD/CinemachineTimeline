@@ -9,6 +9,7 @@ TagManager:
   - trigger3
   - trigger4
   - CinemachineTarget
+  - Plane
   layers:
   - Default
   - TransparentFX
