@@ -201,7 +201,7 @@ QualitySettings:
     skinWeights: 4
     textureQuality: 0
     anisotropicTextures: 2
-    antiAliasing: 0
+    antiAliasing: 2
     softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
@@ -220,10 +220,10 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: f48f873ae78af40b9a7b8220a8c6f95f, type: 2}
+    customRenderPipeline: {fileID: 11400000, guid: 8b79b977e86dc420c9a4b7b6c05a74a8, type: 2}
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
-    Android: 2
+    Android: 5
     GameCoreScarlett: 5
     GameCoreXboxOne: 5
     Lumin: 5
@@ -231,10 +231,10 @@ QualitySettings:
     Nintendo Switch: 5
     PS4: 5
     PS5: 5
-    Server: 0
+    Server: 5
     Stadia: 5
     Standalone: 5
-    WebGL: 3
+    WebGL: 5
     Windows Store Apps: 5
     XboxOne: 5
     iPhone: 2
