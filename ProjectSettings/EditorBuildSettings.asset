@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Timeline/Signal_Emitters.unity
+    guid: 8e2ebf00fde49fd42ba6d8437a7a368e
+  - enabled: 1
+    path: Assets/Scenes/Timeline/Explosions.unity
+    guid: 9aef95abee91a914fbf4c48477e05c32
   m_configObjects: {}
